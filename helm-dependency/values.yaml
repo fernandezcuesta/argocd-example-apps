@@ -7,5 +7,4 @@ aws-load-balancer-controller:
     create: true
     name: aws-load-balancer-controller
   env:
-    - name: TEST
-      value: "true"
+    TEST: "true"
