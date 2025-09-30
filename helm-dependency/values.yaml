@@ -1,3 +1,8 @@
 kyverno:
   fullNameOverride: kyverno
   nameOverride: kyverno
+aws-load-balancer-controller:
+  clusterName: my-cluster
+  serviceAccount:
+    create: true
+    name: aws-load-balancer-controller
